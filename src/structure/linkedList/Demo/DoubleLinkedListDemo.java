@@ -3,6 +3,7 @@ package structure.linkedList.Demo;
 /**
  * @author: Mr.ZuoY
  * @create: 2019-07-26 09:01
+ * 双向链表
  **/
 public class DoubleLinkedListDemo<T> {
     Node<T> front;
