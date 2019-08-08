@@ -1,5 +1,6 @@
 package structure.recursion;
 
+import structure.recursion.demo.EightQueen;
 import structure.recursion.demo.Maze;
 
 /**
@@ -9,8 +10,8 @@ import structure.recursion.demo.Maze;
 public class Main {
 
     public static void main(String[] args) {
-        Maze maze = new Maze();
-        maze.walk(1, 1);
-        maze.print();
+        EightQueen eightQueen = new EightQueen();
+        eightQueen.run(0);
+        System.out.println("一共的结果数量:"+eightQueen.num);
     }
 }
