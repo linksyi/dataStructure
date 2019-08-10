@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1ad48b9-528a-4b13-ad21-e4d9d9518cbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structure/sorting/Bubbling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/linkedList/Demo/DoubleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure/linkedList/Demo/DoubleLinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +36,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>get</find>
-      <find>AnnularQueueDemo</find>
-      <find>getNext</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -66,7 +58,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -85,26 +77,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structure.queue.Main" />
+  <component name="RunManager" selected="Application.Bubbling">
+    <configuration name="Bubbling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structure.sorting.Bubbling" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structure.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structure.linkedList.Main" />
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structure.linkedList.*" />
+          <option name="PATTERN" value="structure.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,24 +92,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structure.sparseArr.Main" />
+      <option name="MAIN_CLASS_NAME" value="structure.recursion.Main" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structure.sparseArr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structure.stack.main" />
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structure.stack.*" />
+          <option name="PATTERN" value="structure.recursion.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,9 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Bubbling" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -170,8 +134,26 @@
       <workItem from="1564102511552" duration="2121000" />
       <workItem from="1564573690093" duration="696000" />
       <workItem from="1564574469238" duration="12927000" />
-      <workItem from="1564770500767" duration="5633000" />
+      <workItem from="1564770500767" duration="15118000" />
+      <workItem from="1565267516378" duration="5509000" />
+      <workItem from="1565423884816" duration="3356000" />
+      <workItem from="1565427719896" duration="1880000" />
     </task>
+    <task id="LOCAL-00001" summary="递归实现迷宫中寻找某个点">
+      <created>1565190921725</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565190921725</updated>
+    </task>
+    <task id="LOCAL-00002" summary="递归解决八皇后问题">
+      <created>1565277533577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565277533577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,39 +164,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>head</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>newHead</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>head.getNext()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(rear + maxSize -front) % maxSize</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sparseArr</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="递归实现迷宫中寻找某个点" />
+    <MESSAGE value="递归解决八皇后问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归解决八皇后问题" />
   </component>
 </project>
