@@ -15,5 +15,6 @@
 >>      EightQueen--------递归解决8皇后问题
 >  * sorting--------基础排序算法
 >>      Buuling--------冒泡
+>>      SelectSort------选择排序
 
 

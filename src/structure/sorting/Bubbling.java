@@ -16,11 +16,11 @@ public class Bubbling {
             arr[i] = (int)(Math.random() * 10000000);
         }
         Bubbling bubbling = new Bubbling();
-        bubbling.algorithm1(arr);
+        bubbling.bubbling1(arr);
         System.out.println(Arrays.toString(arr));
     }
     
-    private void algorithm(int[] arr){
+    private void bubbling(int[] arr){
         int temp;
         int num = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -38,7 +38,7 @@ public class Bubbling {
     }
 
 
-    private void algorithm1(int[] arr){
+    private void bubbling1(int[] arr){
         int temp;
         int num = 0;
 

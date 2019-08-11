@@ -1,7 +1,6 @@
 package structure.recursion;
 
 import structure.recursion.demo.EightQueen;
-import structure.recursion.demo.Maze;
 
 /**
  * @author My.ZuoY
