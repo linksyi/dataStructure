@@ -17,5 +17,7 @@
 >>      Buuling---------冒泡
 >>      SelectSort------选择排序
 >>      InsertSort------插入排序
+>>      ShellsSort------希尔排序
+
 
 
