@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1ad48b9-528a-4b13-ad21-e4d9d9518cbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/structure/sorting/Bubbling.java" afterDir="false" />
+    <list default="true" id="b1ad48b9-528a-4b13-ad21-e4d9d9518cbd" name="Default Changelist" comment="基础算法之冒泡">
+      <change afterPath="$PROJECT_DIR$/src/structure/sorting/ShellsSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +54,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -77,9 +76,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bubbling">
+  <component name="RunManager" selected="Application.ShellsSort">
     <configuration name="Bubbling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structure.sorting.Bubbling" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structure.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structure.sorting.InsertSort" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
@@ -104,15 +116,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structure.sorting.SelectSort" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structure.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShellsSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structure.sorting.ShellsSort" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structure.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellsSort" />
+        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.Bubbling" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <option name="runUnderTerminal" value="true" />
+    <option name="sshConnectionType" value="PASSWORD" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -137,7 +180,21 @@
       <workItem from="1564770500767" duration="15118000" />
       <workItem from="1565267516378" duration="5509000" />
       <workItem from="1565423884816" duration="3356000" />
-      <workItem from="1565427719896" duration="1880000" />
+      <workItem from="1565427719896" duration="2612000" />
+      <workItem from="1565446152122" duration="499000" />
+      <workItem from="1565446684211" duration="1065000" />
+      <workItem from="1565448578770" duration="3984000" />
+      <workItem from="1565535003014" duration="355000" />
+      <workItem from="1565609224791" duration="69000" />
+      <workItem from="1565617195206" duration="21000" />
+      <workItem from="1565670826404" duration="46000" />
+      <workItem from="1565671215989" duration="25000" />
+      <workItem from="1565671931650" duration="105000" />
+      <workItem from="1565672150166" duration="18000" />
+      <workItem from="1565672287570" duration="37000" />
+      <workItem from="1566131675006" duration="1918000" />
+      <workItem from="1566349860033" duration="5974000" />
+      <workItem from="1566376394708" duration="3211000" />
     </task>
     <task id="LOCAL-00001" summary="递归实现迷宫中寻找某个点">
       <created>1565190921725</created>
@@ -153,7 +210,28 @@
       <option name="project" value="LOCAL" />
       <updated>1565277533577</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="基础算法之冒泡">
+      <created>1565429707900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565429707900</updated>
+    </task>
+    <task id="LOCAL-00004" summary="基础算法之选择排序">
+      <created>1565522186909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565522186909</updated>
+    </task>
+    <task id="LOCAL-00005" summary="基础算法之插入排序">
+      <created>1566134455044</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566134455044</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +253,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="递归实现迷宫中寻找某个点" />
     <MESSAGE value="递归解决八皇后问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归解决八皇后问题" />
+    <MESSAGE value="基础算法之冒泡" />
+    <MESSAGE value="基础算法之选择排序" />
+    <MESSAGE value="基础算法之插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="基础算法之插入排序" />
   </component>
 </project>
