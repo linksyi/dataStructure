@@ -14,10 +14,12 @@
 >>      Maze-------------递归实现迷宫中寻找某个点
 >>      EightQueen-------递归解决8皇后问题
 >  * sorting--------基础排序算法
->>      Buuling---------冒泡
+>>      Buuling---------冒泡排序
 >>      SelectSort------选择排序
 >>      InsertSort------插入排序
 >>      ShellsSort------希尔排序
+>>      QuickSort-------快速排序
+
 
 
 

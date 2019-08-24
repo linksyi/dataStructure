@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1ad48b9-528a-4b13-ad21-e4d9d9518cbd" name="Default Changelist" comment="基础算法之冒泡">
-      <change afterPath="$PROJECT_DIR$/src/structure/sorting/ShellsSort.java" afterDir="false" />
+    <list default="true" id="b1ad48b9-528a-4b13-ad21-e4d9d9518cbd" name="Default Changelist" comment="基础算法之快速排序">
+      <change afterPath="$PROJECT_DIR$/src/structure/sorting/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dataStructure/structure/sorting/ShellsSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructure/structure/sorting/ShellsSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structure/sorting/ShellsSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure/sorting/ShellsSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShellsSort">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="Bubbling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structure.sorting.Bubbling" />
       <module name="dataStructure" />
@@ -103,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structure.recursion.Main" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structure.sorting.QuickSort" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structure.recursion.demo.*" />
+          <option name="PATTERN" value="structure.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ShellsSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.Bubbling" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +197,7 @@
       <workItem from="1565672287570" duration="37000" />
       <workItem from="1566131675006" duration="1918000" />
       <workItem from="1566349860033" duration="5974000" />
-      <workItem from="1566376394708" duration="3211000" />
+      <workItem from="1566376394708" duration="10625000" />
     </task>
     <task id="LOCAL-00001" summary="递归实现迷宫中寻找某个点">
       <created>1565190921725</created>
@@ -231,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566134455044</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="基础算法之冒泡">
+      <created>1566382437757</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566382437757</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,9 +263,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="递归实现迷宫中寻找某个点" />
     <MESSAGE value="递归解决八皇后问题" />
-    <MESSAGE value="基础算法之冒泡" />
     <MESSAGE value="基础算法之选择排序" />
     <MESSAGE value="基础算法之插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="基础算法之插入排序" />
+    <MESSAGE value="基础算法之冒泡" />
+    <option name="LAST_COMMIT_MESSAGE" value="基础算法之冒泡" />
   </component>
 </project>
