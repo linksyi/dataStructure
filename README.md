@@ -19,6 +19,8 @@
 >>      InsertSort------插入排序
 >>      ShellsSort------希尔排序
 >>      QuickSort-------快速排序
+>>      MergeSort-------归并排序
+
 
 
 
