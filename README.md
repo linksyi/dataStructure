@@ -20,6 +20,10 @@
 >>      ShellsSort------希尔排序
 >>      QuickSort-------快速排序
 >>      MergeSort-------归并排序
+>  * search--------基础查询算法
+>>      OrderSearch------线性查找
+>>      HalfSearch-------二分查找
+
 
 
 
