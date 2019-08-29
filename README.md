@@ -23,6 +23,11 @@
 >  * search--------基础查询算法
 >>      OrderSearch------线性查找
 >>      HalfSearch-------二分查找
+>  * hashtable--------散列集
+>>      hashtable--------散列集
+>  * tree--------树
+>>      BinaryTree--------二叉树
+
 
 
 
