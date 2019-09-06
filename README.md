@@ -27,6 +27,7 @@
 >>      hashtable--------散列集
 >  * tree--------树
 >>      BinaryTree--------二叉树
+>>      HuffmanTree-------霍夫曼树
 
 
 
