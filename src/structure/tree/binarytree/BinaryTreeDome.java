@@ -1,4 +1,4 @@
-package structure.tree.dome;
+package structure.tree.binarytree;
 
 /**
  * @author My.ZuoY
