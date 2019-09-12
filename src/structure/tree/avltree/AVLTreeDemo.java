@@ -211,7 +211,7 @@ class Node {
         //判断是否要进行右旋转
         if (leftHeight() - rightHeight() > 1) {
             //判断是否要进行双旋转
-            if (left != null && leftHeight() -rightHeight()  > 0) {
+            if (left != null && leftHeight() -rightHeight()  > 1) {
                 left.leftRevolve();
             }
             rightRevolve();
